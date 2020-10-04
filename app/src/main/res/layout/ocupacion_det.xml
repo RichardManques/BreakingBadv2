@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_panel_v2"
+    android:paddingBottom="70dp"
+    android:layout_below="@id/info2"
+    android:outlineSpotShadowColor="#000"
+    >
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/title_ocup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ocupación"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:paddingBottom="13dp"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/ocupacion1_det"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ocupacion 1"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_below="@id/title_ocup"
+        android:fontFamily="serif-monospace"
+
+        />
+
+    <TextView
+        android:id="@+id/series_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Series"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:paddingBottom="13dp"
+        android:layout_below="@id/ocupacion1_det"
+        android:paddingTop="30dp"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/serie1_det"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="serie 1"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:layout_below="@id/series_title"
+        android:fontFamily="serif-monospace"
+        />
+
+
+
+
+
+
+</RelativeLayout>

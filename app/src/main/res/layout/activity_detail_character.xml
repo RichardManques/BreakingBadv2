@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_activity_character"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/walterwhite"
+        android:scaleType="centerCrop"
+        />
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+
+        >
+
+
+        <include android:id="@+id/name_det_layout" layout="@layout/nombre_det" />
+
+        <TextView
+            android:id="@+id/apodo_det"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ApodoChingon"
+            android:layout_above="@id/contenedor"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:textSize="18dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:fontFamily="cursive"
+            />
+
+        <RelativeLayout
+            android:id="@+id/contenedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_panel"
+            android:layout_alignParentBottom="true"
+            android:padding="20dp"
+            >
+
+            <include android:id="@+id/info" layout="@layout/info_det" />
+            <include android:id="@+id/info2" layout="@layout/info_part2_det"/>
+            <include layout="@layout/ocupacion_det"/>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

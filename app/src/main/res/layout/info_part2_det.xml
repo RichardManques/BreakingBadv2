@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/info"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingBottom="30dp"
+    >
+
+    <TextView
+        android:id="@+id/fecha_det"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="20-20-2020"
+        android:textSize="14sp"
+        android:textColor="#1B0202"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        />
+
+    <TextView
+        android:id="@+id/estado_det"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nose el estado"
+        android:textColor="#1B0202"
+        android:gravity="center"
+        android:fontFamily="monospace"
+        />
+
+</LinearLayout>
