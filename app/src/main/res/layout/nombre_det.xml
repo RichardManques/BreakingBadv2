@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_panel_name"
+    android:padding="8dp"
+    android:layout_above="@id/contenedor"
+
+    >
+
+    <TextView
+        android:id="@+id/nombre_det"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Walter White"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        />
+
+</LinearLayout>
