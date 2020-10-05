@@ -1,7 +1,6 @@
 package com.example.breakingbadprueba;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class Detail_activity_character extends AppCompatActivity {
