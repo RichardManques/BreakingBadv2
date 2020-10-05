@@ -3,23 +3,17 @@ package com.example.breakingbadprueba;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.Bundle;
 import android.util.Log;
-
 import com.example.breakingbadprueba.adapter.AdapterCharacter;
 import com.example.breakingbadprueba.model.Character;
-import com.example.breakingbadprueba.adapter.AdapterCharacter;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import cz.msebera.android.httpclient.Header;
 
 public class MainActivity extends AppCompatActivity {
