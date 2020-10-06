@@ -4,7 +4,9 @@
     android:layout_width="250dp"
     android:layout_height="300dp"
     android:layout_marginBottom="10dp"
-    android:background="#00FFFFFF">
+    android:background="#00FFFFFF"
+    android:id="@+id/item_panel"
+    >
 
     <ImageView
         android:id="@+id/item_img"
@@ -12,6 +14,7 @@
         android:layout_height="300dp"
         android:src="@drawable/walterwhite"
         android:scaleType="centerCrop"/>
+
     <TextView
         android:id="@+id/item_name"
         android:layout_width="match_parent"
@@ -24,4 +27,8 @@
         android:textStyle="bold"
         android:textAlignment="center"
         android:fontFamily="@font/sriracharegular"/>
+
+
+
+
 </RelativeLayout>
