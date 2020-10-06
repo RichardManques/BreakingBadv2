@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Breaking Bad</string>
+    <string name="bt_initial">Iniciar</string>
+    <string name="bt_about">Acerca de</string>
+    <string name="creators">Creadores</string>
+    <string name="sebastian">Sebastián Benavides Cartes</string>
+    <string name="richard">Richard Manques Tobar</string>
+    <string name="luis">Luis Caro Retamal</string>
 </resources>

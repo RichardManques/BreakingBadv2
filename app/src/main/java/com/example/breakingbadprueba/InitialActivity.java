@@ -23,7 +23,7 @@ public class InitialActivity extends AppCompatActivity {
             public void run() {
                 if(checkConnection()) {
                     Intent intent = new Intent(
-                            InitialActivity.this ,MainActivity.class
+                            InitialActivity.this , LoginActivity.class
                     );
 
                     startActivity(intent);
