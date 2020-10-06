@@ -10,9 +10,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/bc_breaking_bad"
+        android:src="@drawable/splash"
         tools:ignore="ContentDescription"
-        android:scaleType="fitXY"
-    />
+        android:scaleType="centerCrop"/>
 
 </RelativeLayout>

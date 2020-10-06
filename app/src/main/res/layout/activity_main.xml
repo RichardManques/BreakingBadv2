@@ -6,10 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background2"
+        android:scaleType="fitXY"/>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/breakingbadlarge"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/logo"
         android:id="@+id/rc_character"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        />
+        android:layout_marginHorizontal="60dp"/>
 
 </RelativeLayout>

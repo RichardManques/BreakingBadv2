@@ -1,6 +1,7 @@
 package com.example.breakingbadprueba;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -66,7 +67,6 @@ public class MainActivity extends AppCompatActivity {
             AdapterCharacter ad= new AdapterCharacter(this,list,R.layout.item_character);
             LinearLayoutManager lm = new LinearLayoutManager(this);
             lm.setOrientation(RecyclerView.VERTICAL);
-
             rc.setLayoutManager(lm);
             rc.setAdapter(ad);
 
