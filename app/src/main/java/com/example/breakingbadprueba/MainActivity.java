@@ -56,10 +56,19 @@ public class MainActivity extends AppCompatActivity {
             //recorrer la lista de todos los personajes
             List<Character> list = new ArrayList<>();
             for (int i = 0; i<person.length(); i++) {
+
                 JSONObject character = person.getJSONObject(i);
+
+
                 String name = character.getString("name");
+                String apodo = character.getString("nickname");
                 String img = character.getString("img");
-                Character character2 = new Character(name,img);
+                String fecha = character.getString("birthday");
+                String estado = character.getString("status");
+                String ocupacion = character.getString("occupation");
+                String series = character.getString("category");
+
+                Character character2 = new Character(name,apodo,img,fecha,estado,ocupacion,series);
                 list.add(character2);
             }
             //cargar recycler

@@ -9,6 +9,7 @@
     >
 
     <ImageView
+        android:id="@+id/image_det"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/walterwhite"
@@ -27,7 +28,9 @@
         >
 
 
-        <include android:id="@+id/name_det_layout" layout="@layout/nombre_det" />
+        <include
+            android:id="@+id/name_det_layout"
+            layout="@layout/nombre_det" />
 
         <TextView
             android:id="@+id/apodo_det"
@@ -38,7 +41,7 @@
             android:layout_alignParentRight="true"
             android:paddingBottom="10dp"
             android:paddingRight="20dp"
-            android:textSize="18dp"
+            android:textSize="14dp"
             android:textColor="#fff"
             android:textStyle="bold"
             android:fontFamily="cursive"
